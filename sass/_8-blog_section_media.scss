@@ -1,0 +1,21 @@
+@include phones {
+    .blog_section {
+        .blog_container {
+            .blog_section_grid {
+                grid-template-columns: 1fr;
+                grid-row-gap: 5rem;
+            }
+        }
+    }
+}
+
+@include xs {
+    .blog_section {
+        .blog_container {
+            .blog_section_grid {
+                grid-template-columns: 1fr;
+                grid-row-gap: 5rem;
+            }
+        }
+    }
+}

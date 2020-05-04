@@ -1,0 +1,96 @@
+@include tablets {
+    .about_section {
+
+        .about_container {
+
+            .about_grid {
+
+                .about_content {
+                    width: 100%;
+                    padding: 0;
+
+                    h1 {
+                        font-size: 1.25rem;
+                    }
+
+                }
+
+                .about_img {
+                    width: 100%;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include phones {
+    .about_section {
+
+        .about_container {
+
+            .about_grid {
+                grid-template-columns: 540px;
+                margin: auto;
+
+                .about_content {
+                    padding-top: 0rem;
+
+                    h1 {
+                        font-size: 1.88rem;
+                    }
+
+                }
+
+                .about_img {
+                    width: 80%;
+                    justify-self: center;
+                    text-align: center;
+
+                    img {
+                        width: 80%;
+                        justify-self: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include xs {
+    .about_section {
+
+        .about_container {
+
+            .about_grid {
+                grid-template-columns: 95%;
+                margin: auto;
+
+                .about_content {
+                    padding-top: 0rem;
+
+
+                    h1 {
+                        font-size: 1.25rem;
+                    }
+
+
+                }
+
+                .about_img {
+                    width: 100%;
+                    justify-self: center;
+                    text-align: center;
+
+                    img {
+                        width: 100%;
+                        justify-self: center;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,77 @@
+@include tablets {
+    .services_section {
+        .services_container {
+            .services_content_article {
+
+                p {
+                    margin-bottom: 5rem;
+                    width: 100%;
+
+                }
+            }
+
+            .services_grid {
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+            }
+        }
+    }
+}
+
+@include phones {
+    .services_section {
+        .services_container {
+            .services_content_article {
+
+                p {
+                    margin-bottom: 5rem;
+                    width: 100%;
+
+                }
+            }
+
+            .services_grid {
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(6, 1fr);
+
+                .services_item {
+
+                    p {
+                        color: rgba(0, 0, 0, 0.6);
+                        width: 60%;
+                        margin: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include xs {
+    .services_section {
+        .services_container {
+            .services_content_article {
+
+                p {
+                    margin-bottom: 5rem;
+                    width: 100%;
+
+                }
+            }
+
+            .services_grid {
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(6, 1fr);
+
+                .services_item {
+
+                    p {
+                        color: rgba(0, 0, 0, 0.6);
+                        width: 60%;
+                        margin: auto;
+                    }
+                }
+            }
+        }
+    }
+}

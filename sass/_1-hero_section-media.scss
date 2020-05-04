@@ -1,0 +1,92 @@
+@include tablets {
+    .hero_section {
+
+        .hero_container {
+
+            .hero_grid {
+
+                .hero_content {
+                    h1 {
+                        font-size: 1.88rem;
+                    }
+
+                }
+
+                .hero_img {
+                    width: 100%;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include phones {
+    .hero_section {
+
+        .hero_container {
+
+            .hero_grid {
+                grid-template-columns: 540px;
+                margin: auto;
+
+                .hero_content {
+                    padding-top: 0rem;
+
+                    h1 {
+                        font-size: 1.88rem;
+                    }
+
+                }
+
+                .hero_img {
+                    width: 80%;
+                    justify-self: center;
+                    text-align: center;
+
+                    img {
+                        width: 80%;
+                        justify-self: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include xs {
+    .hero_section {
+
+        .hero_container {
+
+            .hero_grid {
+                grid-template-columns: 95%;
+                margin: auto;
+
+                .hero_content {
+                    padding-top: 0rem;
+
+
+                    h1 {
+                        font-size: 1.88rem;
+                    }
+
+                }
+
+                .hero_img {
+                    width: 80%;
+                    justify-self: center;
+                    text-align: center;
+
+                    img {
+                        width: 80%;
+                        justify-self: center;
+                    }
+                }
+            }
+        }
+    }
+}

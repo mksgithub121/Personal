@@ -1,0 +1,40 @@
+@include xs {
+    .project_section {
+        .project_container {
+            .project_content_article {
+                margin-bottom: 3rem;
+
+
+            }
+
+            .project_content_options {
+                width: 40%;
+                margin: auto;
+                margin-bottom: 2rem;
+
+                li {
+                    padding: 0rem .5rem;
+                    font-size: 0.7rem;
+                    position: relative;
+                    padding-bottom: .4rem;
+                }
+            }
+
+            .project_content_grid {
+                grid-template-columns: 1fr;
+
+                .project_content_gellary {
+                    .project_content_gellary_img {
+                        width: 95%;
+
+                        img {
+                            width: 95%;
+                        }
+
+                    }
+
+                }
+            }
+        }
+    }
+}

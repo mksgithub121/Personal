@@ -1,0 +1,80 @@
+.hero_section {
+    margin-top: 8rem;
+
+
+    .hero_container {
+
+
+        .hero_grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 1rem;
+
+            .hero_content {
+                padding-top: 7.5rem;
+                padding-left: 1rem;
+
+                h3 {
+                    font-size: .9rem;
+                    font-weight: 400;
+                    letter-spacing: .1rem;
+                    color: rgba($light_black, 0.8);
+                }
+
+                h1 {
+                    margin: .9rem 0rem;
+                    font-size: 3.75rem;
+                    font-weight: 500;
+                }
+
+                p {
+                    margin-bottom: 1.25rem;
+                    font-size: .9rem;
+                    color: rgba($black, .6);
+                }
+
+                button {
+                    padding: .9rem 1.875rem;
+                    background: $button_bg;
+                    border: none;
+                    color: $white;
+                    font-weight: bold;
+                    @include transition();
+                    outline: none;
+
+                    &:hover {
+                        box-shadow: 0px 20px 15px #b9b9b9cf;
+                    }
+
+
+                }
+            }
+
+            .hero_img {
+                width: 95%;
+
+                img {
+                    width: 90%;
+                }
+
+
+
+            }
+
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

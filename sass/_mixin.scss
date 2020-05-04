@@ -1,0 +1,89 @@
+// responsive mixin start
+
+// xs devices (landscape phones, 575px and low)
+@mixin xs() {
+    @media screen and (max-width: 575px) {
+        @content;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@mixin phones() {
+    @media screen and (min-width: 576px) and (max-width: 767px) {
+        @content;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@mixin tablets() {
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+        @content;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@mixin desktops() {
+    @media screen and (min-width: 992px) and (max-width: 1199px) {
+        @content;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+
+@mixin large_desktops() {
+    @media screen and (min-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin xs_to_tablets() {
+    @media screen and (max-width: 991px) {
+        @content;
+    }
+}
+
+// responsive mixin end
+//transition mixin start
+@mixin transition($valu: .5s) {
+    transition: $valu;
+    -webkit-transition: $valu;
+    -moz-transition: $valu;
+    -ms-transition: $valu;
+    -o-transition: $valu;
+}
+
+//transition mixin end
+//transform mixin start
+@mixin transform($valu1, $valu2) {
+    transform: translate($valu1, $valu2);
+    -webkit-transform: translate($valu1, $valu2);
+    -moz-transform: translate($valu1, $valu2);
+    -ms-transform: translate($valu1, $valu2);
+    -o-transform: translate($valu1, $valu2);
+}
+
+@mixin transform_scale($valu) {
+    transform: scale($valu);
+    -webkit-transform: scale($valu);
+    -moz-transform: scale($valu);
+    -ms-transform: scale($valu);
+    -o-transform: scale($valu);
+}
+
+@mixin border_radius($valu) {
+    border-radius: $valu;
+    -webkit-border-radius: $valu;
+    -moz-border-radius: $valu;
+    -ms-border-radius: $valu;
+    -o-border-radius: $valu;
+}
+
+
+
+
+
+
+
+
+
+//transform mixin end

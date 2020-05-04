@@ -1,0 +1,94 @@
+// ========== sass variables mixin for shortcuts start ========== //
+
+@import "variables";
+@import "mixin";
+
+// ========== sass variables mixin for shortcuts end ========== //
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    background: $bg_color;
+    font-weight: 300;
+
+}
+
+// ========== *reset code ========== //
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: $black
+}
+
+//======== font awsome style start ========== //
+i {
+    font-size: .5rem;
+    padding: 0rem .2rem;
+}
+
+i.fa-chevron-right {
+    float: right;
+    padding-top: .3rem;
+}
+
+//======== font awsome style end ==========//
+
+//======== section gap style start ==========//
+.section_gap {
+    margin-top: 8rem;
+}
+
+//======== section gap style  end ==========//
+
+//======== input outline start ==========//
+input:focus {
+    outline: none;
+}
+
+//======== input outline end ==========//
+
+
+
+
+
+
+@import "container";
+@import "0-header";
+@import "1-hero_section";
+@import "2-about_section";
+@import "3-service_section";
+@import "4-clint_counter_section";
+@import "5-projects_section";
+@import "6-feedback_section";
+@import "7-pricing_section";
+@import "8-blog_section";
+@import "9-branch_section";
+@import "10-footer_section";
+
+// responsive mixin import //
+@import "container-media";
+@import "0-header-media";
+@import "1-hero_section-media";
+@import "2-about_section-media";
+@import "3-service_section-media";
+@import "4-clint_counter_section_media";
+@import "5-projects_section_media";
+@import "6-feedback_section_media";
+@import "7-pricing_section_media";
+@import "8-blog_section_media";
+@import "9-branch_section_media";
+@import "10-footer_section_media";

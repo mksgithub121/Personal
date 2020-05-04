@@ -1,0 +1,26 @@
+.branch_section {
+    background: $button_bg;
+
+    .branch_container {
+        .branch_section_grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            height: 15rem;
+            justify-content: center;
+            align-items: center;
+
+            .branch_img {
+                justify-self: center;
+
+                img {
+                    opacity: .6;
+                    @include transition();
+
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}

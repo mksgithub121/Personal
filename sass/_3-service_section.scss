@@ -1,0 +1,76 @@
+.services_section {
+
+
+    .services_container {
+        .services_content_article {
+            text-align: center;
+            margin-bottom: 5rem;
+
+            h1 {
+                margin-bottom: 1rem;
+                font-size: 2.25rem;
+                font-weight: 500;
+            }
+
+            p {
+                color: rgba($black, .7);
+                width: 60%;
+                margin: auto;
+
+            }
+        }
+
+        .services_grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-gap: 5rem;
+
+            .services_item {
+                text-align: center;
+
+
+                &:hover .icon i,
+                &:hover h2 {
+                    color: $DodgerBlue;
+                }
+
+                &:hover .icon i {
+                    transform: scale(1.5);
+                    -webkit-transform: scale(1.5);
+                    -moz-transform: scale(1.5);
+                    -ms-transform: scale(1.5);
+                    -o-transform: scale(1.5);
+                }
+
+                .icon {
+
+                    margin-bottom: 1rem;
+
+                    i {
+                        font-size: 1.75rem;
+                        color: rgba($black, .8);
+                        cursor: pointer;
+                        @include transition();
+
+                    }
+                }
+
+
+                h2 {
+                    font-size: 1.2rem;
+                    font-weight: 500;
+                    margin-bottom: 1rem;
+                    color: rgba($black, .8);
+                    cursor: pointer;
+                    @include transition();
+
+                }
+
+                p {
+                    color: rgba(0, 0, 0, 0.6);
+                }
+            }
+        }
+    }
+}

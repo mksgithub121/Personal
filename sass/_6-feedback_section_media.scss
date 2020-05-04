@@ -1,0 +1,99 @@
+@include desktops {
+    .feedback_section {
+        .feedback_container {
+            .feedback_content_grid {
+                grid-template-columns: auto auto;
+
+                .slider_icon {
+                    grid-column-start: 1;
+                    grid-column-end: 3;
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    justify-self: center;
+                    align-self: center;
+
+                    .slider_all_icons {
+                        box-shadow: -10px 0px 15px rgba($black, .2);
+                        margin-top: 0rem;
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include tablets {
+    .feedback_section {
+        .feedback_container {
+            .feedback_content_grid {
+                grid-template-columns: auto auto;
+
+                .slider_icon {
+                    grid-column-start: 1;
+                    grid-column-end: 3;
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    justify-self: center;
+                    align-self: center;
+
+                    .slider_all_icons {
+                        box-shadow: -10px 0px 15px rgba($black, .2);
+                        margin-top: 0rem;
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include phones {
+    .feedback_section {
+        .feedback_container {
+            .feedback_content_grid {
+                grid-template-columns: auto;
+
+                .slider_icon {
+                    grid-column-start: 1;
+                    grid-column-end: 2;
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    justify-self: center;
+                    align-self: center;
+
+                    .slider_all_icons {
+                        box-shadow: -10px 0px 15px rgba($black, .2);
+                        margin-top: 0rem;
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include xs {
+    .feedback_section {
+        .feedback_container {
+            .feedback_content_grid {
+                grid-template-columns: auto;
+
+                .slider_icon {
+                    grid-column-start: 1;
+                    grid-column-end: 2;
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    justify-self: center;
+                    align-self: center;
+
+                    .slider_all_icons {
+                        box-shadow: -10px 0px 15px rgba($black, .2);
+                        margin-top: 0rem;
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+}

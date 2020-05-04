@@ -1,0 +1,29 @@
+@include tablets {
+    .price_section {
+        .price_container {
+            .pricing_section_grid {
+                grid-template-columns: auto auto;
+            }
+        }
+    }
+}
+
+@include phones {
+    .price_section {
+        .price_container {
+            .pricing_section_grid {
+                grid-template-columns: auto;
+            }
+        }
+    }
+}
+
+@include xs {
+    .price_section {
+        .price_container {
+            .pricing_section_grid {
+                grid-template-columns: auto;
+            }
+        }
+    }
+}

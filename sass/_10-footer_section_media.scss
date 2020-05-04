@@ -1,0 +1,29 @@
+@include tablets {
+    .footer_section {
+        .footer_container {
+            .footer_section_grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+}
+
+@include phones {
+    .footer_section {
+        .footer_container {
+            .footer_section_grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    }
+}
+
+@include xs {
+    .footer_section {
+        .footer_container {
+            .footer_section_grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+}

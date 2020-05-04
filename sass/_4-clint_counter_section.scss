@@ -1,0 +1,23 @@
+.clint_counter_section {
+  height: 20rem;
+  background: $button_bg;
+  margin-bottom: 5rem;
+  display: flex;
+
+  .clint_counter_container {
+    .clint_counter_grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      justify-content: space-between;
+      text-align: center;
+
+      .clint_counter_item {
+        color: $white;
+
+        h2 {
+          font-size: 2.25rem;
+        }
+      }
+    }
+  }
+}
